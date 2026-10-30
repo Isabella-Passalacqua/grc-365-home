@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+	h1 {
+		font: 48pt/1.4em 'Dancing Script';
+		text-align: center;
+		color: deeppink;
+	} div {
+		width: 800px;
+		max-width: 100%;
+		height: 400px;
+		margin: 0 auto;
+		// border: 1px dashed gray;
+		display: grid;
+		grid-template: auto / auto auto auto;
+	@media only screen and (max-width: 850px) { 
+		[styles for cell phone] 
+	}
+	} img {
+		width: 200px;
+	} figure {
+		width: 200px;
+		// background: pink;
+	} figcaption {
+		font: 12pt/1.4em 'Roboto Serif';
+	} table {
+		margin: 0 auto;
+		border: 1px solid blue;
+		font: 14pt/1.4em 'Roboto Serif';
+		border-collapse: collapse;
+	} td, th {
+		padding: 6px 18px;
+	} tr:nth-child(even) {
+		background: pink;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Grid Portfolio</h1>
+	<div>
+	<figure>
+	<a href="isabella/isabella/IMG_2153.jpeg">
+	<img src="isabella/isabella/thumb_IMG_2153.jpeg" />
+	</a>
+	<figcaption>UNLV Premier Artwork</figcaption>
+	</figure>
+	<figure>
+	<a href="isabella/isabella/IMG_2516.jpeg">
+	<img src="isabella/isabella/thumb_IMG_2516.jpeg" />
+	</a>
+	<figcaption>Coat for Halloween Costume</figcaption>
+	</figure>
+	<figure>
+	<a href="isabella/isabella/IMG_6974.png">
+	<img src="isabella/isabella/thumb_IMG_6974.png" />
+	</a>
+	<figcaption>Drawing of Noelle Holiday</figcaption>
+	</figure>
+	</div>
+	<table>
+		<tr>
+			<th>Artwork Name</th>
+			<th>Medium</th>
+			<th>Year</th>
+		</tr>
+		<tr>
+			<td>UNLV Premier Artwork</td>
+			<td>marker</td>
+			<td>2026</td>
+		</tr>
+		<tr>
+			<td>Coat for Halloween Costume</td>
+			<td>sewing and embroidery</td>
+			<td>2026</td>
+		</tr>
+		<tr>
+			<td>Drawing of Noelle Holiday</td>
+			<td>digital</td>
+			<td>2026</td>
+		</tr>
+	</table>
+</body>
+</html>
